@@ -5,7 +5,6 @@
 - [Yilin Zhu]()
 - [Gavin Roberts](https://github.com/empire-penguin)
 - [Chris Villafan]()
-- []()
 
 ----------------------------
 
@@ -13,6 +12,13 @@ Customer Churn
 : the percentage of customers who stopped purchasing your business's products or services during a certain period of time.
 
 ----------------------------
+
+## Usage
+
+1. [Install Anaconda](https://docs.anaconda.com/anaconda/install/index.html)
+2. In terminal, run `conda env create -f requirements.yaml`
+3. Run `conda activate Final_Project`
+4. Run `jupyter notebook`
 
 ### Dataset
 The dataset we used is the Telco Customer Churn Dataset from IBM Company. This dataset is a widely used one in customer analytics and churn prediction studies. It was collected to analyze customer behavior and predict churn. The dataset offers valuable insights into various aspects of customer interactions and characteristics. The dataset consists of 7043 rows representing customers and 21 columns representing features. These features include important customer information such as tenure, total charges, subscriptions, and contract type. The final prediction variable is customer churn. 
